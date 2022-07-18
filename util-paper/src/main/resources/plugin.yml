@@ -1,0 +1,8 @@
+name: $pluginName
+main: ${group}.util.plugin.UtilPluginMain
+api-version: "1.19"
+version: $version
+libraries:
+  - io.github.monun:kommand-core:$kommandVersion
+  - io.github.monun:tap-core:$tapVersion
+  - org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2
